@@ -4,6 +4,7 @@ import ReactApexChart from 'react-apexcharts';
 import CardLoader from './CardLoader';
 
 const LineChart = ({ analytics, analyticsLoading }) => {
+    
     if(analyticsLoading || typeof window === undefined){
         return (
          <CardLoader/>
